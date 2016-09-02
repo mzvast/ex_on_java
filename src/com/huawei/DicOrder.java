@@ -1,4 +1,4 @@
-package com.mzvast;
+package com.huawei;
 
 import java.util.Arrays;
 

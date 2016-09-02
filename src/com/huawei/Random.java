@@ -1,5 +1,5 @@
 /*http://www.nowcoder.com/practice/3245215fffb84b7b81285493eae92ff0?tpId=37&tqId=21226&rp=&ru=%2Fta%2Fhuawei&qru=%2Fta%2Fhuawei%2Fquestion-ranking*/
-package com.mzvast;
+package com.huawei;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class Random{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
-		while (in.hasNext()) {//×¢ÒâÒªÓÃµ½hasNext()·ñÔò²âÊÔ»áÍ¨²»¹ý
+		while (in.hasNext()) {//×¢ï¿½ï¿½Òªï¿½Ãµï¿½hasNext()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô»ï¿½Í¨ï¿½ï¿½ï¿½ï¿½
 			int n = in.nextInt();
 			int[] array = new int[0];
 			for (int i = 0; i < n; i++) {
@@ -23,10 +23,10 @@ public class Random{
 		}		
 		
 	}
-	/*È¥ÖØ*/
+	/*È¥ï¿½ï¿½*/
 	public static int[] push(int[] array,int val){
 		for (int i = 0; i < array.length; i++) {
-			if (array[i] == val) {//ÓÐÖØ¸´£¬·µ»ØÔ­Êý×é
+			if (array[i] == val) {//ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô­ï¿½ï¿½ï¿½ï¿½
 				return array;
 			}
 		}
@@ -37,7 +37,7 @@ public class Random{
 		newArray[array.length] = val;
 		return newArray;
 	}
-	/*ÅÅÐò*/
+	/*ï¿½ï¿½ï¿½ï¿½*/
 	public static int[] sort(int[] array){
 		int[] sortedArray = array;
 		for (int i = 0; i < sortedArray.length; i++) {
