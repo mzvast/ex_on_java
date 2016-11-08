@@ -30,12 +30,5 @@ public class Example {
 		}
 		return true;
 	}
-	
-//	public static void main(String[] args) {
-//		String[] a = {"z","b","d","k","o"};
-//		sort(a);
-//		assert isSorted(a);
-//		show(a);
-//	}
 
 }
